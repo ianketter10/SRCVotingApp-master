@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="portfolio">
+        <item>-- Select Portfolio --</item>
+        <item>President</item>
+        <item>Deputy President</item>
+        <item>Secretary General</item>
+        <item>Financial Officer</item>
+        <item>Constitutional And Legal Affairs</item>
+        <item>Sports Officer</item>
+        <item>Public Relations Officer</item>
+        <item>Health And Welfare Officer</item>
+        <item>Projects and Campaign Officer</item>
+        <item>Student Affairs</item>
+        <item>Equity and Diversity Officer</item>
+        <item>Transformation Officer</item>
+    </string-array>
+
+    <string-array name="ethnicity">
+        <item>-- Select Ethnic Group --</item>
+        <item>African</item>
+        <item>Indian</item>
+        <item>Coloured</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>-- Select enrolled Course --</item>
+        <item>Accounting</item>
+        <item>Agricultural Management</item>
+        <item>Biomedical Technology</item>
+        <item>Civil Engineering</item>
+        <item>Dental Assisting</item>
+        <item>Design Technology</item>
+        <item>Education</item>
+        <item>Electrical Engineering</item>
+        <item>Environmental Health</item>
+        <item>Information Technology</item>
+        <item>Health Management</item>
+        <item>Hospitality</item>
+        <item>Human Resources Management</item>
+        <item>Internal Auditing</item>
+        <item>Mechanical Engineering</item>
+        <item>Radiography</item>
+        <item>Language Practice and Media Studies</item>
+        <item>Somatology</item>
+        <item>Quantity Surveying</item>
+        <item>Radiography in Diagnostics</item>
+    </string-array>
+
+</resources>

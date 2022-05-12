@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.vote.VoteFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/section_label">
+
+        <LinearLayout
+            android:id="@+id/frmSelectCandidate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:id="@+id/rgCandidate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <RadioButton
+                    android:id="@+id/rbDASO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_edges"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/dimen_edges"
+                    android:background="@drawable/spinner"
+                    android:drawableStart="@mipmap/ic_daso_round"
+                    android:padding="15dp"
+                    android:text="Honorable Member\nmember@daso.com" />
+
+                <RadioButton
+                    android:id="@+id/rbEFFSC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_edges"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/dimen_edges"
+                    android:background="@drawable/spinner"
+                    android:drawableStart="@mipmap/ic_effsc_round"
+                    android:padding="15dp"
+                    android:text="Candidate Comrade\nmember@effsc.com" />
+
+                <RadioButton
+                    android:id="@+id/rbSASCO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_edges"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="@dimen/dimen_edges"
+                    android:background="@drawable/spinner"
+                    android:drawableStart="@mipmap/ic_sasco_round"
+                    android:padding="15dp"
+                    android:text="Jacob Ramaphosa\nmember@sasco.com" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:text="President" />
+
+</android.support.constraint.ConstraintLayout>
